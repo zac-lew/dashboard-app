@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import HeaderBar from "./HeaderBar";
+import DashboardBody from "./DashboardBody";
+import { getWeather } from "./api";
+import loading from "./assets/icons/loading.gif";
+import HamburgerMenu from "./HamburgerMenu";
 
 function App() {
+  const [weather, setWeather] = useState(0);
+  const [location, setLocation] = useState(0);
+  const [menuOpen, setMenuOpen] = useState(false);
+  console.log("App -> menuOpen", menuOpen);
+  useEffect(() => {
+    getWeather(setWeather, setLocation);
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {weather ? (
+        <React.Fragment>
+          <HamburgerMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <div className={"body-container" + (menuOpen ? " blurred" : "")}>
+            <HeaderBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+            <DashboardBody weather={weather} />
+          </div>
+        </React.Fragment>
+      ) : (
+        <img src={loading} alt="loading..." />
+      )}
     </div>
   );
 }

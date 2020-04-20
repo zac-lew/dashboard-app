@@ -1,0 +1,26 @@
+.today-training-block {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 1000px;
+  height: 300px;
+  .today-training-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .today-training-am,
+    .today-training-pm {
+      width: 50%;
+    }
+    .today-training-am {
+      border-right: 1px solid lightgrey;
+    }
+    .icon {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .exercise {
+      font-size: 22pt;
+      margin-bottom: 10px;
+    }
+  }
+}

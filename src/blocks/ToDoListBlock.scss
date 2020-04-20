@@ -1,0 +1,41 @@
+.todo-list-container {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 1350px;
+  height: 350px;
+  margin-top: 30px;
+  .todo-list-body {
+    .form-control:disabled {
+      background-color: #fff;
+    }
+    .todo-input {
+      width: 100%;
+      outline: none;
+      border: none;
+    }
+    .input-box {
+      border-bottom: 1px solid lightgray;
+    }
+    .add-todo-button {
+      float: right;
+    }
+    .task {
+      cursor: pointer;
+    }
+    .completed {
+      text-decoration: line-through;
+    }
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    .icon {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .temperature,
+    .description {
+      font-size: 22pt;
+      margin-bottom: 10px;
+    }
+  }
+}

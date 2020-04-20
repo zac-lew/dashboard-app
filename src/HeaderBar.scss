@@ -1,0 +1,14 @@
+.header-bar-container {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+  font-weight: bold;
+  img {
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+  }
+}
