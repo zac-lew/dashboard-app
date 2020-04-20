@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/dashboard-app/static/css/main.9aa34aa4.chunk.css",
+    "main.js": "/dashboard-app/static/js/main.2ec0fe02.chunk.js",
+    "main.js.map": "/dashboard-app/static/js/main.2ec0fe02.chunk.js.map",
+    "runtime-main.js": "/dashboard-app/static/js/runtime-main.ee257213.js",
+    "runtime-main.js.map": "/dashboard-app/static/js/runtime-main.ee257213.js.map",
+    "static/css/2.de424728.chunk.css": "/dashboard-app/static/css/2.de424728.chunk.css",
+    "static/js/2.994cf1fd.chunk.js": "/dashboard-app/static/js/2.994cf1fd.chunk.js",
+    "static/js/2.994cf1fd.chunk.js.map": "/dashboard-app/static/js/2.994cf1fd.chunk.js.map",
+    "index.html": "/dashboard-app/index.html",
+    "precache-manifest.9613105aa1fc78fd043cb0007332bd8c.js": "/dashboard-app/precache-manifest.9613105aa1fc78fd043cb0007332bd8c.js",
+    "service-worker.js": "/dashboard-app/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/dashboard-app/static/css/2.de424728.chunk.css.map",
+    "static/css/main.9aa34aa4.chunk.css.map": "/dashboard-app/static/css/main.9aa34aa4.chunk.css.map",
+    "static/js/2.994cf1fd.chunk.js.LICENSE.txt": "/dashboard-app/static/js/2.994cf1fd.chunk.js.LICENSE.txt",
+    "static/media/bed.svg": "/dashboard-app/static/media/bed.f3119f94.svg",
+    "static/media/gymnast.svg": "/dashboard-app/static/media/gymnast.c8417a75.svg",
+    "static/media/loading.gif": "/dashboard-app/static/media/loading.eeeca435.gif",
+    "static/media/physiotherapy.svg": "/dashboard-app/static/media/physiotherapy.4cf0ed28.svg",
+    "static/media/run.svg": "/dashboard-app/static/media/run.f69b847f.svg",
+    "static/media/sunny.svg": "/dashboard-app/static/media/sunny.02f11d1f.svg",
+    "static/media/weightlifting.svg": "/dashboard-app/static/media/weightlifting.a0b62797.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee257213.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.994cf1fd.chunk.js",
+    "static/css/main.9aa34aa4.chunk.css",
+    "static/js/main.2ec0fe02.chunk.js"
+  ]
+}
