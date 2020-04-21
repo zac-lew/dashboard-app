@@ -1,8 +1,9 @@
 .today-training-block {
   border: 1px solid lightgrey;
   border-radius: 10px;
-  width: 1000px;
   height: 300px;
+  flex-grow: 8;
+  margin: 30px;
   .today-training-body {
     display: flex;
     flex-direction: row;

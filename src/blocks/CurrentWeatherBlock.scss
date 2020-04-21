@@ -1,8 +1,9 @@
 .current-weather-block {
   border: 1px solid lightgrey;
   border-radius: 10px;
-  width: 300px;
   height: 300px;
+  flex-grow: 2;
+  margin: 30px;
   .current-weather-body {
     display: flex;
     flex-direction: column;

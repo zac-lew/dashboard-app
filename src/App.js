@@ -3,7 +3,6 @@ import "./App.css";
 import HeaderBar from "./HeaderBar";
 import DashboardBody from "./DashboardBody";
 import { getWeather } from "./api";
-import loading from "./assets/icons/loading.gif";
 import HamburgerMenu from "./HamburgerMenu";
 
 function App() {
@@ -16,17 +15,13 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {weather ? (
-        <React.Fragment>
-          <HamburgerMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-          <div className={"body-container" + (menuOpen ? " blurred" : "")}>
-            <HeaderBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-            <DashboardBody weather={weather} />
-          </div>
-        </React.Fragment>
-      ) : (
-        <img src={loading} alt="loading..." />
-      )}
+      <React.Fragment>
+        <HamburgerMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <div className={"body-container" + (menuOpen ? " blurred" : "")}>
+          <HeaderBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+          <DashboardBody weather={weather} />
+        </div>
+      </React.Fragment>
     </div>
   );
 }

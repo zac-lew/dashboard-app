@@ -41,3 +41,7 @@
 .blurred {
   filter: blur(10px);
 }
+
+.body-container {
+  width: 100%;
+}
