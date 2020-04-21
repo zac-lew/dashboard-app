@@ -3,8 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid darkgray;
   font-weight: bold;
+  background: rgba(0, 0, 0, 0.32);
+  color: white;
   img {
     position: absolute;
     left: 15px;
