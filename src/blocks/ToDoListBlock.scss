@@ -19,8 +19,10 @@
     .add-todo-button {
       float: right;
     }
-    .task {
+    .task-list {
       cursor: pointer;
+      display: flex;
+      flex-direction: row;
     }
     .completed {
       text-decoration: line-through;

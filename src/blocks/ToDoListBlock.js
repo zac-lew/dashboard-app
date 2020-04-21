@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./ToDoListBlock.scss";
-import { InputGroup, InputGroupAddon, InputGroupText, Input } from "reactstrap";
-
 import BlockHeader from "./BlockHeader";
+import Checkbox from "../common/Checkbox";
 
-const ToDoListBlock = ({ weather }) => {
+const ToDoListBlock = () => {
   const [tasks, setTasks] = useState([]);
   const [currentTask, setCurrentTask] = useState("");
 
@@ -15,18 +14,16 @@ const ToDoListBlock = ({ weather }) => {
     setCurrentTask("");
   };
 
-  const generateToDoList = () => {
-    return tasks.map((task, i) => (
-      <div onClick={() => setCompleted(i)} className={task.completed ? "task completed" : "task"}>
-        {task.name}
-      </div>
-    ));
-  };
-
   const setCompleted = (index) => {
     const localTasks = JSON.parse(JSON.stringify(tasks));
     localTasks[index].completed = !localTasks[index].completed;
     setTasks(localTasks);
+  };
+
+  const generateToDoList = () => {
+    return tasks.map((task, i) => (
+      <Checkbox label={task.name} index={i} checked={task.completed} setCompleted={setCompleted} />
+    ));
   };
 
   const clearTasks = () => {
