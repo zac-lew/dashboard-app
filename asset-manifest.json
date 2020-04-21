@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dashboard-app/static/css/main.9aa34aa4.chunk.css",
-    "main.js": "/dashboard-app/static/js/main.2ec0fe02.chunk.js",
-    "main.js.map": "/dashboard-app/static/js/main.2ec0fe02.chunk.js.map",
+    "main.css": "/dashboard-app/static/css/main.fd621713.chunk.css",
+    "main.js": "/dashboard-app/static/js/main.59a03492.chunk.js",
+    "main.js.map": "/dashboard-app/static/js/main.59a03492.chunk.js.map",
     "runtime-main.js": "/dashboard-app/static/js/runtime-main.ee257213.js",
     "runtime-main.js.map": "/dashboard-app/static/js/runtime-main.ee257213.js.map",
     "static/css/2.de424728.chunk.css": "/dashboard-app/static/css/2.de424728.chunk.css",
-    "static/js/2.994cf1fd.chunk.js": "/dashboard-app/static/js/2.994cf1fd.chunk.js",
-    "static/js/2.994cf1fd.chunk.js.map": "/dashboard-app/static/js/2.994cf1fd.chunk.js.map",
+    "static/js/2.55ccd419.chunk.js": "/dashboard-app/static/js/2.55ccd419.chunk.js",
+    "static/js/2.55ccd419.chunk.js.map": "/dashboard-app/static/js/2.55ccd419.chunk.js.map",
     "index.html": "/dashboard-app/index.html",
-    "precache-manifest.9613105aa1fc78fd043cb0007332bd8c.js": "/dashboard-app/precache-manifest.9613105aa1fc78fd043cb0007332bd8c.js",
+    "precache-manifest.89ea6b10bcf264e43691e12913b328b7.js": "/dashboard-app/precache-manifest.89ea6b10bcf264e43691e12913b328b7.js",
     "service-worker.js": "/dashboard-app/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/dashboard-app/static/css/2.de424728.chunk.css.map",
-    "static/css/main.9aa34aa4.chunk.css.map": "/dashboard-app/static/css/main.9aa34aa4.chunk.css.map",
-    "static/js/2.994cf1fd.chunk.js.LICENSE.txt": "/dashboard-app/static/js/2.994cf1fd.chunk.js.LICENSE.txt",
+    "static/css/main.fd621713.chunk.css.map": "/dashboard-app/static/css/main.fd621713.chunk.css.map",
+    "static/js/2.55ccd419.chunk.js.LICENSE.txt": "/dashboard-app/static/js/2.55ccd419.chunk.js.LICENSE.txt",
     "static/media/bed.svg": "/dashboard-app/static/media/bed.f3119f94.svg",
     "static/media/gymnast.svg": "/dashboard-app/static/media/gymnast.c8417a75.svg",
     "static/media/loading.gif": "/dashboard-app/static/media/loading.eeeca435.gif",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.ee257213.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.994cf1fd.chunk.js",
-    "static/css/main.9aa34aa4.chunk.css",
-    "static/js/main.2ec0fe02.chunk.js"
+    "static/js/2.55ccd419.chunk.js",
+    "static/css/main.fd621713.chunk.css",
+    "static/js/main.59a03492.chunk.js"
   ]
 }
