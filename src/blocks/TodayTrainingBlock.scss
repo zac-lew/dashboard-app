@@ -3,7 +3,10 @@
   color: white;
   position: absolute;
   left: 20px;
-  top: 30px;
+  top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px;
   .today-training-body {
     display: flex;
     flex-direction: row;
@@ -24,4 +27,8 @@
       font-weight: bold;
     }
   }
+}
+
+.today-training-block:hover {
+  background-color: rgba(211, 211, 211, 0.3);
 }

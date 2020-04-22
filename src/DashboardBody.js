@@ -4,6 +4,7 @@ import CurrentWeatherBlock from "./blocks/CurrentWeatherBlock";
 import TodayTrainingBlock from "./blocks/TodayTrainingBlock";
 import ToDoListBlock from "./blocks/ToDoListBlock";
 import loading from "./assets/icons/pacman.svg";
+import WeeklyTraining from "./blocks/WeeklyTraining";
 
 const DashboardBody = (props) => {
   const { weather } = props;
@@ -14,6 +15,7 @@ const DashboardBody = (props) => {
           <TodayTrainingBlock {...props} />
           <CurrentWeatherBlock {...props} />
           <ToDoListBlock {...props} />
+          <WeeklyTraining {...props} />
         </React.Fragment>
       ) : (
         <img src={loading} alt="loading..." />

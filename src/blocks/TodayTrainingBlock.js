@@ -23,7 +23,7 @@ const TodayTrainingBlock = ({ weather }) => {
     setEveningSession(eveningSession);
   }, []);
   return (
-    <div className="today-training-block">
+    <div className="today-training-block" onClick={() => alert("Show full training schedule")}>
       <div className="today-training-body">
         <div className="today-training-am">
           <div className="icon">

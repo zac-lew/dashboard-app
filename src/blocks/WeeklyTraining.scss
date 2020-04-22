@@ -1,0 +1,48 @@
+.weekly-training-container {
+  position: absolute;
+  top: 78%;
+  left: 16%;
+  width: 1000px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .day {
+    width: 130px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .day-icon {
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .circle {
+        border-radius: 50%;
+        font-size: 20pt;
+        color: #fff;
+        text-align: center;
+        background: rgb(34, 171, 196);
+        margin: 10px;
+      }
+      .rest {
+        border-radius: 50%;
+        font-size: 20pt;
+        color: #fff;
+        text-align: center;
+        background: none;
+        margin: 10px;
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        font-weight: bold;
+      }
+    }
+
+    .day-name {
+      height: 20%;
+      font-size: 16pt;
+    }
+  }
+}
