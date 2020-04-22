@@ -3,7 +3,7 @@ import "./DashboardBody.scss";
 import CurrentWeatherBlock from "./blocks/CurrentWeatherBlock";
 import TodayTrainingBlock from "./blocks/TodayTrainingBlock";
 import ToDoListBlock from "./blocks/ToDoListBlock";
-import loading from "./assets/icons/loading.gif";
+import loading from "./assets/icons/pacman.svg";
 
 const DashboardBody = (props) => {
   const { weather } = props;
@@ -11,9 +11,9 @@ const DashboardBody = (props) => {
     <div className="dashboard-body-container">
       {weather ? (
         <React.Fragment>
-          <CurrentWeatherBlock {...props} />
           <TodayTrainingBlock {...props} />
-          <ToDoListBlock {...props} />{" "}
+          <CurrentWeatherBlock {...props} />
+          <ToDoListBlock {...props} />
         </React.Fragment>
       ) : (
         <img src={loading} alt="loading..." />

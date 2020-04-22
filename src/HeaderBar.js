@@ -6,7 +6,7 @@ const HeaderBar = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className="header-bar-container">
       <img src={Hamburger} alt="menu" height="40" onClick={() => setMenuOpen(!menuOpen)} />
-      <div className="current-location">Dashboard</div>
+      <div className="current-location"></div>
     </div>
   );
 };

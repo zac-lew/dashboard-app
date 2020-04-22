@@ -4,7 +4,6 @@ import Rest from "../assets/icons/bed.svg";
 import Gym from "../assets/icons/weightlifting.svg";
 import Yoga from "../assets/icons/gymnast.svg";
 import Rehab from "../assets/icons/physiotherapy.svg";
-import BlockHeader from "./BlockHeader";
 import Moment from "moment";
 import "./TodayTrainingBlock.scss";
 import { trainingSchedule } from "../assets/data/trainingSchedule";
@@ -25,10 +24,8 @@ const TodayTrainingBlock = ({ weather }) => {
   }, []);
   return (
     <div className="today-training-block">
-      <BlockHeader header={`Today's Training - ${Moment().format("MMMM Do")}`} />
       <div className="today-training-body">
         <div className="today-training-am">
-          <BlockHeader header="AM" />
           <div className="icon">
             <img
               src={
@@ -43,12 +40,11 @@ const TodayTrainingBlock = ({ weather }) => {
                   : Gym
               }
               alt="icon"
-              height="80"></img>
+              height="70"></img>
           </div>
           <div className="exercise">{parseInt(morningSession) ? `${morningSession}km Easy Run` : morningSession}</div>
         </div>
         <div className="today-training-pm">
-          <BlockHeader header="PM" />
           <div className="icon">
             <img
               src={
@@ -63,7 +59,7 @@ const TodayTrainingBlock = ({ weather }) => {
                   : Gym
               }
               alt="icon"
-              height="80"></img>
+              height="70"></img>
           </div>
           <div className="exercise">{parseInt(eveningSession) ? `${eveningSession}km Easy Run` : eveningSession}</div>
         </div>

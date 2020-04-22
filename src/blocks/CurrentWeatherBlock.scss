@@ -1,23 +1,20 @@
 .current-weather-block {
-  border: 1px solid lightgrey;
-  border-radius: 10px;
-  height: 300px;
-  flex-grow: 2;
-  margin: 30px;
-  background-color: #ebecf0;
-  opacity: 0.98;
+  font-family: -apple-system, BlinkMacSystemFont;
+  color: white;
+  position: absolute;
+  right: 30px;
+  top: 30px;
   .current-weather-body {
     display: flex;
     flex-direction: column;
     height: auto;
     .icon {
-      margin-top: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
     }
     .temperature,
     .description {
-      font-size: 22pt;
-      margin-bottom: 10px;
+      font-size: 16pt;
+      font-weight: bold;
     }
   }
 }

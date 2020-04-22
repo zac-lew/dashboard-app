@@ -1,5 +1,11 @@
 .custom-checkbox {
   /* Customize the label (the container) */
+  display: flex;
+  .trash {
+    height: 20px;
+    float: right;
+    cursor: pointer;
+  }
   .container {
     display: block;
     position: relative;

@@ -1,11 +1,13 @@
 .todo-list-container {
-  border: 1px solid lightgrey;
-  border-radius: 10px;
-  height: 350px;
-  width: 100%;
-  margin: 30px;
-  background-color: #ebecf0;
-  opacity: 0.98;
+  font-family: -apple-system, BlinkMacSystemFont;
+  color: white;
+  height: 300px;
+  font-size: 20pt;
+  .todo-list-header {
+    font-size: 30pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
   .todo-list-body {
     .form-control:disabled {
       background-color: #fff;
@@ -14,9 +16,12 @@
       width: 100%;
       outline: none;
       border: none;
+      background: none;
+      color: white;
     }
     .input-box {
-      border-bottom: 1px solid lightgray;
+      border-bottom: 1px solid white;
+      margin-bottom: 30px;
     }
     .add-todo-button {
       float: right;
