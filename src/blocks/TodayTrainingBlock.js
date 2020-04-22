@@ -8,7 +8,7 @@ import Moment from "moment";
 import "./TodayTrainingBlock.scss";
 import { trainingSchedule } from "../assets/data/trainingSchedule";
 
-const TodayTrainingBlock = ({ weather }) => {
+const TodayTrainingBlock = ({ setModal }) => {
   const [morningSession, setMorningSession] = useState("");
   const [eveningSession, setEveningSession] = useState("");
   useEffect(() => {
@@ -23,7 +23,7 @@ const TodayTrainingBlock = ({ weather }) => {
     setEveningSession(eveningSession);
   }, []);
   return (
-    <div className="today-training-block" onClick={() => alert("Show full training schedule")}>
+    <div className="today-training-block" onClick={() => setModal(true)}>
       <div className="today-training-body">
         <div className="today-training-am">
           <div className="icon">
