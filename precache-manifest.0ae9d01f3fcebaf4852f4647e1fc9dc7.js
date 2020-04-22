@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f17e76ee6388757f8c9b5a8d38d5494",
+    "revision": "de1440a617e1fd9ece0f6750cef73d24",
     "url": "/dashboard-app/index.html"
   },
   {
-    "revision": "6bac406f4dd159a9eb76",
+    "revision": "feee264710e94610535c",
     "url": "/dashboard-app/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "adc203199d092cedacd2",
-    "url": "/dashboard-app/static/css/main.fd621713.chunk.css"
+    "revision": "410395e43d9b70c68bab",
+    "url": "/dashboard-app/static/css/main.45fa94c2.chunk.css"
   },
   {
-    "revision": "6bac406f4dd159a9eb76",
-    "url": "/dashboard-app/static/js/2.55ccd419.chunk.js"
+    "revision": "feee264710e94610535c",
+    "url": "/dashboard-app/static/js/2.648f3b16.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/dashboard-app/static/js/2.55ccd419.chunk.js.LICENSE.txt"
+    "url": "/dashboard-app/static/js/2.648f3b16.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "adc203199d092cedacd2",
-    "url": "/dashboard-app/static/js/main.59a03492.chunk.js"
+    "revision": "410395e43d9b70c68bab",
+    "url": "/dashboard-app/static/js/main.0438c9c5.chunk.js"
   },
   {
     "revision": "7f4a46bd89a841367e83",
@@ -36,8 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dashboard-app/static/media/gymnast.c8417a75.svg"
   },
   {
-    "revision": "eeeca435e82a4f795027bcf6fb65e018",
-    "url": "/dashboard-app/static/media/loading.eeeca435.gif"
+    "revision": "2fba0b7bc404aff08f7df55003f57247",
+    "url": "/dashboard-app/static/media/landscape.2fba0b7b.jpg"
+  },
+  {
+    "revision": "b9d501772e592c234e8fa4591e6859f6",
+    "url": "/dashboard-app/static/media/pacman.b9d50177.svg"
   },
   {
     "revision": "4cf0ed281af00e69b00ffce886813d84",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "02f11d1f91bda442b86a5763de986296",
     "url": "/dashboard-app/static/media/sunny.02f11d1f.svg"
+  },
+  {
+    "revision": "9369bc313ec0b17bb21a0a8619a31dc0",
+    "url": "/dashboard-app/static/media/trash.9369bc31.svg"
   },
   {
     "revision": "a0b6279727ebdfa53a728423cf6aab2e",

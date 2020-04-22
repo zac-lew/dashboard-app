@@ -1,32 +1,34 @@
 {
   "files": {
-    "main.css": "/dashboard-app/static/css/main.fd621713.chunk.css",
-    "main.js": "/dashboard-app/static/js/main.59a03492.chunk.js",
-    "main.js.map": "/dashboard-app/static/js/main.59a03492.chunk.js.map",
+    "main.css": "/dashboard-app/static/css/main.45fa94c2.chunk.css",
+    "main.js": "/dashboard-app/static/js/main.0438c9c5.chunk.js",
+    "main.js.map": "/dashboard-app/static/js/main.0438c9c5.chunk.js.map",
     "runtime-main.js": "/dashboard-app/static/js/runtime-main.ee257213.js",
     "runtime-main.js.map": "/dashboard-app/static/js/runtime-main.ee257213.js.map",
     "static/css/2.de424728.chunk.css": "/dashboard-app/static/css/2.de424728.chunk.css",
-    "static/js/2.55ccd419.chunk.js": "/dashboard-app/static/js/2.55ccd419.chunk.js",
-    "static/js/2.55ccd419.chunk.js.map": "/dashboard-app/static/js/2.55ccd419.chunk.js.map",
+    "static/js/2.648f3b16.chunk.js": "/dashboard-app/static/js/2.648f3b16.chunk.js",
+    "static/js/2.648f3b16.chunk.js.map": "/dashboard-app/static/js/2.648f3b16.chunk.js.map",
     "index.html": "/dashboard-app/index.html",
-    "precache-manifest.89ea6b10bcf264e43691e12913b328b7.js": "/dashboard-app/precache-manifest.89ea6b10bcf264e43691e12913b328b7.js",
+    "precache-manifest.0ae9d01f3fcebaf4852f4647e1fc9dc7.js": "/dashboard-app/precache-manifest.0ae9d01f3fcebaf4852f4647e1fc9dc7.js",
     "service-worker.js": "/dashboard-app/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/dashboard-app/static/css/2.de424728.chunk.css.map",
-    "static/css/main.fd621713.chunk.css.map": "/dashboard-app/static/css/main.fd621713.chunk.css.map",
-    "static/js/2.55ccd419.chunk.js.LICENSE.txt": "/dashboard-app/static/js/2.55ccd419.chunk.js.LICENSE.txt",
+    "static/css/main.45fa94c2.chunk.css.map": "/dashboard-app/static/css/main.45fa94c2.chunk.css.map",
+    "static/js/2.648f3b16.chunk.js.LICENSE.txt": "/dashboard-app/static/js/2.648f3b16.chunk.js.LICENSE.txt",
     "static/media/bed.svg": "/dashboard-app/static/media/bed.f3119f94.svg",
     "static/media/gymnast.svg": "/dashboard-app/static/media/gymnast.c8417a75.svg",
-    "static/media/loading.gif": "/dashboard-app/static/media/loading.eeeca435.gif",
+    "static/media/App.css": "/dashboard-app/static/media/landscape.2fba0b7b.jpg",
+    "static/media/pacman.svg": "/dashboard-app/static/media/pacman.b9d50177.svg",
     "static/media/physiotherapy.svg": "/dashboard-app/static/media/physiotherapy.4cf0ed28.svg",
     "static/media/run.svg": "/dashboard-app/static/media/run.f69b847f.svg",
     "static/media/sunny.svg": "/dashboard-app/static/media/sunny.02f11d1f.svg",
+    "static/media/trash.svg": "/dashboard-app/static/media/trash.9369bc31.svg",
     "static/media/weightlifting.svg": "/dashboard-app/static/media/weightlifting.a0b62797.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ee257213.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.55ccd419.chunk.js",
-    "static/css/main.fd621713.chunk.css",
-    "static/js/main.59a03492.chunk.js"
+    "static/js/2.648f3b16.chunk.js",
+    "static/css/main.45fa94c2.chunk.css",
+    "static/js/main.0438c9c5.chunk.js"
   ]
 }
