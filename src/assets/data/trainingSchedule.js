@@ -1049,12 +1049,4 @@ export const trainingSchedule = [
     Time: "PM",
     Event: "6",
   },
-  {
-    Date: "7/20/20",
-    Time: "AM",
-  },
-  {
-    Date: "7/20/20",
-    Time: "PM",
-  },
 ];

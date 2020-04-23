@@ -6,6 +6,7 @@ import ToDoListBlock from "./blocks/ToDoListBlock";
 import loading from "./assets/icons/pacman.svg";
 import WeeklyTraining from "./blocks/WeeklyTraining";
 import { Modal, ModalBody } from "reactstrap";
+import TrainingCalendar from "./blocks/TrainingCalendar";
 
 const DashboardBody = (props) => {
   const { weather } = props;
@@ -19,7 +20,9 @@ const DashboardBody = (props) => {
           <ToDoListBlock {...props} />
           <WeeklyTraining {...props} />
           <Modal isOpen={modal} toggle={() => setModal(!modal)} className="training-calendar-modal">
-            <ModalBody>Inset Full Training Program</ModalBody>
+            <ModalBody>
+              <TrainingCalendar />
+            </ModalBody>
           </Modal>
         </React.Fragment>
       ) : (
