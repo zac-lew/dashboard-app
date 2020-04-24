@@ -12,7 +12,7 @@ export const trainingSchedule = [
   {
     Date: "4/7/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "4/7/20",
@@ -82,7 +82,7 @@ export const trainingSchedule = [
   {
     Date: "4/14/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "4/14/20",
@@ -152,7 +152,7 @@ export const trainingSchedule = [
   {
     Date: "4/21/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "4/21/20",
@@ -222,7 +222,7 @@ export const trainingSchedule = [
   {
     Date: "4/28/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "4/28/20",
@@ -292,7 +292,7 @@ export const trainingSchedule = [
   {
     Date: "5/5/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "5/5/20",
@@ -362,7 +362,7 @@ export const trainingSchedule = [
   {
     Date: "5/12/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "5/12/20",
@@ -432,7 +432,7 @@ export const trainingSchedule = [
   {
     Date: "5/19/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "5/19/20",
@@ -502,7 +502,7 @@ export const trainingSchedule = [
   {
     Date: "5/26/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "5/26/20",
@@ -572,7 +572,7 @@ export const trainingSchedule = [
   {
     Date: "6/2/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "6/2/20",
@@ -642,7 +642,7 @@ export const trainingSchedule = [
   {
     Date: "6/9/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "6/9/20",
@@ -712,7 +712,7 @@ export const trainingSchedule = [
   {
     Date: "6/16/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "6/16/20",
@@ -782,7 +782,7 @@ export const trainingSchedule = [
   {
     Date: "6/23/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "6/23/20",
@@ -852,7 +852,7 @@ export const trainingSchedule = [
   {
     Date: "6/30/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "6/30/20",
@@ -922,7 +922,7 @@ export const trainingSchedule = [
   {
     Date: "7/7/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "7/7/20",
@@ -992,7 +992,7 @@ export const trainingSchedule = [
   {
     Date: "7/14/20",
     Time: "AM",
-    Event: "Gym - Lower Strength",
+    Event: "Gym - Upper Strength",
   },
   {
     Date: "7/14/20",

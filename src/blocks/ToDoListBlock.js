@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import "./ToDoListBlock.scss";
 import BlockHeader from "./BlockHeader";
 import Checkbox from "../common/Checkbox";
+import { useLocalStorage } from "../common/customHooks";
 
 const ToDoListBlock = () => {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useLocalStorage("tasks", []);
   const [currentTask, setCurrentTask] = useState("");
 
   const addTask = () => {
@@ -53,9 +54,6 @@ const ToDoListBlock = () => {
             onChange={(e) => setCurrentTask(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && addTask()}
           />
-          {/* <button className="add-todo-button" onClick={addTask}>
-            Add
-          </button> */}
         </div>
         <div className="checkbox-list">{generateToDoList(tasks)}</div>
       </div>

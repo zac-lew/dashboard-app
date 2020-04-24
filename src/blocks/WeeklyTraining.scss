@@ -12,6 +12,12 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
+  .strava-sync {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
   .icons {
     display: flex;
   }
@@ -28,7 +34,7 @@
       align-items: center;
       .circle {
         border-radius: 50%;
-        font-size: 18pt;
+        font-size: 16pt;
         color: #fff;
         text-align: center;
         background: rgb(34, 171, 196);
@@ -36,7 +42,7 @@
       }
       .rest {
         border-radius: 50%;
-        font-size: 18pt;
+        font-size: 16pt;
         color: #fff;
         text-align: center;
         background: none;

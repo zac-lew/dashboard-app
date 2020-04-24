@@ -6,12 +6,20 @@ import moment from "moment";
 import Next from "../assets/icons/next.svg";
 import Previous from "../assets/icons/left-arrow.svg";
 
-const TrainingCalendar = (props) => {
+const TrainingCalendar = () => {
   const [mondayDate, setMondayDate] = useState(moment().startOf("isoWeek"));
   const [mondayIndex, setMondayIndex] = useState(0);
+  const [weeklyMileage, setWeeklyMileage] = useState(0);
   useEffect(() => {
     const index = trainingSchedule.findIndex((session) => moment(session.Date, "MM/DD/YY").isSame(mondayDate));
     setMondayIndex(index);
+    const dist = trainingSchedule.reduce((a, b, i) => {
+      if (i > index && i < index + 14 && parseInt(b.Event)) {
+        return a + parseInt(b.Event);
+      }
+      return a;
+    }, 0);
+    setWeeklyMileage(dist);
   }, [mondayDate]);
   return (
     <div className="training-calendar-container">
@@ -68,6 +76,7 @@ const TrainingCalendar = (props) => {
           <TrainingCalendarCell session={trainingSchedule[mondayIndex + 13]} />
         </tr>
       </table>
+      <div className="total-mileage">Total Weekly Mileage: {weeklyMileage}km</div>
     </div>
   );
 };

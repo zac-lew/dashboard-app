@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import DashboardBody from "./DashboardBody";
 import { getWeather } from "./api";
@@ -11,13 +12,15 @@ function App() {
     getWeather(setWeather, setLocation);
   }, []);
   return (
-    <div className="App">
-      <React.Fragment>
-        <div className={"body-container" + (menuOpen ? " blurred" : "")}>
-          <DashboardBody weather={weather} />
-        </div>
-      </React.Fragment>
-    </div>
+    <Router>
+      <div className="App">
+        <React.Fragment>
+          <div className={"body-container" + (menuOpen ? " blurred" : "")}>
+            <DashboardBody weather={weather} />
+          </div>
+        </React.Fragment>
+      </div>
+    </Router>
   );
 }
 

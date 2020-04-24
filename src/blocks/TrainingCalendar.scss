@@ -3,7 +3,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   .header {
     display: flex;
@@ -17,12 +17,13 @@
       font-size: 20pt;
     }
   }
+  .total-mileage {
+    font-size: 16pt;
+  }
   .calendar-table {
-    // border: 1px solid lightgray;
-    margin-top: 30px;
     border-collapse: collapse;
     width: 96%;
-    height: 90%;
+    height: 80%;
     .am-column,
     .pm-column {
       width: 8%;
