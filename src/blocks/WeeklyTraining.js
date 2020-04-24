@@ -65,8 +65,8 @@ const WeeklyTraining = (props) => {
         <div
           className="strava-sync"
           onClick={() => {
-            getToken(setTokenResponse, tokenResponse);
-            getActivities(tokenResponse, setActivities, mondayDate, setTokenResponse);
+            // getToken(setTokenResponse, tokenResponse);
+            // getActivities(tokenResponse, setActivities, mondayDate, setTokenResponse);
           }}>
           Sync with Strava
         </div>
