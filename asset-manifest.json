@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/dashboard-app/static/css/main.c9913a35.chunk.css",
-    "main.js": "/dashboard-app/static/js/main.290ea12c.chunk.js",
-    "main.js.map": "/dashboard-app/static/js/main.290ea12c.chunk.js.map",
-    "runtime-main.js": "/dashboard-app/static/js/runtime-main.ee257213.js",
-    "runtime-main.js.map": "/dashboard-app/static/js/runtime-main.ee257213.js.map",
-    "static/css/2.de424728.chunk.css": "/dashboard-app/static/css/2.de424728.chunk.css",
-    "static/js/2.98572d76.chunk.js": "/dashboard-app/static/js/2.98572d76.chunk.js",
-    "static/js/2.98572d76.chunk.js.map": "/dashboard-app/static/js/2.98572d76.chunk.js.map",
+    "main.css": "/dashboard-app/static/css/main.9c817b16.chunk.css",
+    "main.js": "/dashboard-app/static/js/main.eefc22dd.chunk.js",
+    "main.js.map": "/dashboard-app/static/js/main.eefc22dd.chunk.js.map",
+    "runtime-main.js": "/dashboard-app/static/js/runtime-main.715a1292.js",
+    "runtime-main.js.map": "/dashboard-app/static/js/runtime-main.715a1292.js.map",
+    "static/css/2.69121389.chunk.css": "/dashboard-app/static/css/2.69121389.chunk.css",
+    "static/js/2.211aa70c.chunk.js": "/dashboard-app/static/js/2.211aa70c.chunk.js",
+    "static/js/2.211aa70c.chunk.js.map": "/dashboard-app/static/js/2.211aa70c.chunk.js.map",
     "index.html": "/dashboard-app/index.html",
-    "precache-manifest.6b35ef302cdcf40d24e6ef2732528d74.js": "/dashboard-app/precache-manifest.6b35ef302cdcf40d24e6ef2732528d74.js",
+    "precache-manifest.7c7fc3b4c58119ff03bbff0d93650117.js": "/dashboard-app/precache-manifest.7c7fc3b4c58119ff03bbff0d93650117.js",
     "service-worker.js": "/dashboard-app/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/dashboard-app/static/css/2.de424728.chunk.css.map",
-    "static/css/main.c9913a35.chunk.css.map": "/dashboard-app/static/css/main.c9913a35.chunk.css.map",
-    "static/js/2.98572d76.chunk.js.LICENSE.txt": "/dashboard-app/static/js/2.98572d76.chunk.js.LICENSE.txt",
+    "static/css/2.69121389.chunk.css.map": "/dashboard-app/static/css/2.69121389.chunk.css.map",
+    "static/css/main.9c817b16.chunk.css.map": "/dashboard-app/static/css/main.9c817b16.chunk.css.map",
+    "static/js/2.211aa70c.chunk.js.LICENSE.txt": "/dashboard-app/static/js/2.211aa70c.chunk.js.LICENSE.txt",
     "static/media/bed.svg": "/dashboard-app/static/media/bed.f3119f94.svg",
     "static/media/gymnast.svg": "/dashboard-app/static/media/gymnast.c8417a75.svg",
     "static/media/App.css": "/dashboard-app/static/media/landscape.2fba0b7b.jpg",
+    "static/media/left-arrow.svg": "/dashboard-app/static/media/left-arrow.2f02a21a.svg",
+    "static/media/next.svg": "/dashboard-app/static/media/next.6b2049e3.svg",
     "static/media/pacman.svg": "/dashboard-app/static/media/pacman.b9d50177.svg",
     "static/media/physiotherapy.svg": "/dashboard-app/static/media/physiotherapy.4cf0ed28.svg",
     "static/media/run.svg": "/dashboard-app/static/media/run.f69b847f.svg",
@@ -25,10 +27,10 @@
     "static/media/weightlifting.svg": "/dashboard-app/static/media/weightlifting.a0b62797.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee257213.js",
-    "static/css/2.de424728.chunk.css",
-    "static/js/2.98572d76.chunk.js",
-    "static/css/main.c9913a35.chunk.css",
-    "static/js/main.290ea12c.chunk.js"
+    "static/js/runtime-main.715a1292.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.211aa70c.chunk.js",
+    "static/css/main.9c817b16.chunk.css",
+    "static/js/main.eefc22dd.chunk.js"
   ]
 }
