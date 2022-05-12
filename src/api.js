@@ -1,20 +1,33 @@
 import axios from "axios";
 import stravaApi from "strava-v3";
-const ACCESS_KEY = "7a393e09ede24fd9435f0c8159cb2e2b";
+const ACCESS_KEY = "a2fbeda12c92e341f052ec4a9ee76870";
 
-export const getWeather = async (setWeather, setLocation) => {
+export const getWeather = async (setWeather, location) => {
   return axios
     .get(
-      `https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=Sydney`
+      `http://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=` +
+        location.latitude +
+        "," +
+        location.longitude
     )
     .then((result) => {
-      setWeather(result.data.current);
-      setLocation(result.data.location);
+      setWeather(result);
     })
     .catch((error) => {
       console.error(error);
       return Promise.reject(error);
     });
+};
+
+export const getLocation = async (setLocation) => {
+  await navigator.geolocation.getCurrentPosition(
+    (position) =>
+      setLocation({
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+      }),
+    (err) => console.log(err)
+  );
 };
 
 export const getToken = async (setTokenResponse, previousTokenResponse) => {
